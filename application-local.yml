@@ -4,4 +4,4 @@ spring:
     hibernate:
       ddl-auto: update
 
-useDB: local
+useDB: h2

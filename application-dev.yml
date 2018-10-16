@@ -4,4 +4,4 @@ spring:
     hibernate:
       ddl-auto: create-drop
 
-useDB: local
+useDB: h2
