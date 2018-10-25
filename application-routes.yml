@@ -1,5 +1,15 @@
 zuul:
+  ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin
   ignoredServices: '*'
   routes:
-    user-service: /users/**
-    serviceId: users
+    user:
+      path: /users/**
+      serviceId: user-service
+    exercise:
+      path: /exercises/**
+      serviceId: exercise-service
+    auth:
+      path: /auth/**
+      service-id: auth-service
+      strip-prefix: false
+      sensitive-headers: Cookie,Set-Cookie

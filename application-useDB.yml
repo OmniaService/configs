@@ -1,9 +1,0 @@
-localDBDriver: com.mysql.cj.jdbc.Driver
-localDBUrl: jdbc:mysql://localhost:3306/omnia_local?useSSL=false&serverTimezone=UTC
-localDBUser: root
-localDBPass: root
-
-devDBDriver: com.mysql.cj.jdbc.Driver
-devDBUrl: jdbc:mysql://localhost:3306/omnia_dev?useSSL=false&serverTimezone=UTC
-devDBUser: root
-devDBPass: root
